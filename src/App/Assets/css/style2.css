@@ -1,0 +1,480 @@
+h1{
+  font-size: 24px !important;
+  font-weight: normal !important;
+  color: #302737 !important;
+  font-family:'Mukta Malar'!important;
+}
+
+h2{
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  color: #302737 !important;
+  font-family:'Mukta Malar'!important;
+}
+
+h3{
+  font-size: 20px !important;
+  /*color: #302737 !important;*/
+  font-weight: 500 !important;
+  margin-top: 20px !important;
+  
+  /*margin-bottom: -20px !important;*/
+}
+
+h4{
+  color: #313541;
+    font-family: 'Mukta Malar';
+    font-size: 14px;
+    font-weight:bold;
+}
+/*********************Home Screen***************************/
+.recent-main {
+    /*margin-top: 50px !important;
+    text-align: left !important; 
+    */
+  }
+  .home-dropdown{
+    padding: 10px 5px !important;
+  }
+  
+  
+  .recent-main .home-search-row{
+    /* width: 100%; */
+  }
+  
+  
+  .home-search-row .search-col{
+    font-size: 18px !important;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 80px;
+  }
+  
+  
+  .home-search-row .search-btn-col .btn-home-search
+  {
+    background: #f9f9fb !important;
+    border: 2px solid #D3D3D3;
+    color: #D3D3D3;
+    width: auto;
+    min-width: 150px;
+    padding: 3px 40px;
+    
+  }
+  
+
+  .home-main-right .bgwhite{
+    margin-bottom:20px;
+  }
+.combinesearch{
+  padding-top: 10px !important;
+}
+.combinesearch .search{
+  font-size: 72px;
+    color: #8D265D;
+    font-family: Mukta Malar;
+}
+.combinesearch .monthlysearch{
+  color: #8E8FA2;
+    font-family: Mukta Malar;
+    font-size: 18px;
+}
+.home-main .sortby label{
+  margin: 6px 5px 0 0;
+}
+
+.home-main .roleSelect{
+  border: none;
+    background: transparent;
+    margin-top: -3px;
+}
+.combinewalletsearch{
+  text-align: center;
+}
+  /********************UPLOAD CREDENTIALS*************************/
+
+  .uploadCredential-main{
+    margin-top: 50px;
+  }
+
+  
+  .file-upload-main-row{
+    margin-top: 20px;
+  }
+
+  .invite-friend-row .upload-invite-friend{
+    margin-top: 20px;
+  }
+
+ .file-upload-main-row .upload-file-row {
+  
+    margin-top: -30px;
+
+  }
+  .uploadCredential-main .uploadStudentFile{
+    margin-left: -13px;
+  }
+
+/*
+.upload-file-row .form-inline label{
+  justify-content: center !important;
+}
+*/
+
+.form-inline .choose-btn label{
+    color:#8E8FA2;
+    width: auto;
+    min-width: 150px;
+    padding: 3px 40px;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px auto;
+    margin-left: 12px;
+    margin-right: 10px;
+    height: 45px;
+    text-align: center;
+    border: 2.5px solid #8E8FA2;
+    border-radius: 6px !important;
+  }
+
+
+  .file-upload-main-row .form-inline .upload-btn{
+    width:180px;
+    height:45px;
+    background: linear-gradient(#902A63, #7F1543);
+    color: #FFFFFF;
+    /* margin-left:25px !important; */
+    font-weight: bold;
+    font-size: 16px;
+  
+    /*color:#FFFFFF;
+    width: auto;
+    min-width: 195px;
+    padding: 3px 40px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 8px auto;
+    margin-left: 57px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid#902A63;
+    border-radius: 6px !important;
+    background: linear-gradient(#902A63, #7F1543) !important;
+   */
+  }
+
+  .upload-file-row .uploadcsv {
+    margin-top: -4px;
+    font-weight:normal;
+    font-size: 15px;
+    width: 236px !important;
+  }
+
+  .upload-credential-row .upload-credential{
+  
+    margin-bottom: 40px !important;
+    
+  }
+
+ .upload-credential .form-inline .roleSelect{
+   color: #B0BAC5;
+ }
+
+  .upload-credential .form-inline .schoolName-text-field{
+    width:90% !important;
+  }
+
+  .preview{
+    width:135px;
+    height:140px;
+    color:rgb(158, 153, 153);
+    border: 2px solid #D3D3D3;
+    text-align: center;
+    padding-top: 55px;
+  }
+  
+  .preview .img{
+    width:135px;
+    height:140px;
+    margin-top: -55px;
+  }
+  .uploadCredential-main .upload-single-btn{
+    width: 250px !important;
+    height: 40px;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-left: -10px;
+    background: linear-gradient(#902A63, #7F1543);
+    color: #FFFFFF;
+    font-weight:bold;
+    font-size:16px;
+    text-align: center;
+  }
+
+  .upload-file-row .form-inline .errorText{
+    font-family: 'Mukta Malar', sans-serif !important;
+    font-size: 14px !important;
+    color:#D0021B;
+    margin-left: 16px !important;
+  
+  }
+
+  .upload-file-row .form-inline .successText{
+    font-family: 'Mukta Malar', sans-serif !important;
+    font-size: 14px !important;
+    color:#7ED321;
+    margin-left: 16px !important;
+    
+  }
+
+.form-inline .roleSelect,
+.form-inline .label-roleSelect {
+    /*
+    margin-left: 16px !important;
+    font-size: 15px !important;
+    font-weight:normal;
+    font-family: 'Mukta Malar';
+    color: #B0BAC5;
+    */
+}
+  .upload-credential .form-inline .school-text{
+width:100%;
+display: block;
+  }
+
+  .upload-credential  .form-inline  .roleSelect,
+  .upload-credential .form-inline  .label-roleSelect {
+    margin-left: 0 !important;
+}
+
+.upload-credential .form-inline .form-group .dropdown{
+  width: 95% !important;
+}
+
+/*upload-credential-row .upload-credential-preview-row .upload-file-row .form-inline .upload-btn{
+  width:180px;
+  height:45px;
+  background: linear-gradient(#902A63, #7F1543);
+  color: #FFFFFF;
+  margin-left:25px !important;
+  font-weight: bold;
+  font-size: 16px;
+}
+*/
+ .upload-preview-file-row .form-inline .upload-btn{
+  width:180px;
+  height:45px;
+  background: linear-gradient(#902A63, #7F1543);
+  color: #FFFFFF;
+  /* margin-left:62px !important; */
+  font-weight: bold;
+  font-size: 16px;
+ }
+.upload-preview-file-row .form-inline .previewChooseFile{
+width: 40%;
+}
+ .upload-preview-file-row .form-inline .choose-btn
+ {
+  margin-left: 0px;
+  margin-top: 12px;
+ }
+
+ .uploadCredential-main .previewComponent{
+   margin-top: 120px;
+   margin-left: -10px;
+ }
+
+ .previewComponent .upload-credential-preview-row{
+   margin-top: -15px;
+ }
+
+ .form-inline .uploadCsvText{
+   width:30%
+ }
+
+ .home-main .recent-main{
+  margin-top: 0px !important;
+  text-align: left !important; 
+ }
+
+ .recent-main .home-search-row .bgwhite{
+  background: #ffffff;
+  padding-left: -10px;
+  padding: 20px;
+  margin: 5px;
+ }
+
+ .upload-credential-main .bgwhite{
+   width:315px;
+ }
+ .upload-credential-main .teds{
+   margin-left: 0px;
+   margin-top: 0px;
+ }
+
+ .home-main{
+   margin-top: 50px;
+ }
+
+ .home-main .home-search-row .search-col{
+   padding-left: 0px;
+ }
+
+ .home-main .recent-main .home-search-row .search-btn-col .btn-home-search 
+ {
+  height: 30px;
+  width:60px;
+  padding: 0px 0px; }
+
+ .upload-credential-main .bgwhite row .h2{
+    margin-top: 0px !important; 
+ }
+ .home-main .recent-main .home-search-row .bgwhite{
+   width:100%;
+ }
+.home-main .recent-main .home-search-row{
+width:100%;
+}
+ .home-main .recent-main .home-update-row{
+   margin-top: 5px;
+   width: 100%;
+ }
+ .home-main .recent-main .home-update-row .bgwhite
+ {
+  width: 100%;}
+
+ .home-main{
+  max-width: 58% !important;
+  flex: 0 0 56% !important;
+ }
+ /************************MY WALLET*********************************/
+
+ .wallet-main{
+   margin-top: 50PX !important;
+   margin-left: 0px;
+   flex:0 0 25 !important;
+ }
+
+ .tedwallet-remaining{
+  font-size: 72px !important;
+  font-weight:normal;
+  font-family: 'Mukta Malar';
+  color: #555668;
+ }
+
+ .tedwallet-credits
+ {
+  font-size: 18px !important;
+  font-weight:normal;
+  font-family: 'Mukta Malar';
+  color: #8E8FA2;
+ }
+
+ .tedsWallet .bgwhite{
+  background: #ffffff;
+ text-align: center;
+}
+
+.tedsWallet{
+  height:188px;
+  padding-top:10px;
+}
+
+.tedsCredit{
+  height: 188px;
+  padding-top: 10px;
+}
+
+.tedsCredit .btn-convert{
+  margin-top: 0px;
+  border: 2px solid #8D265D;
+  color: #8D265D;
+  margin-left: 0px;
+}
+
+.tedsCredit .bgwhite{
+  background: #ffffff;
+ text-align: center;
+}
+
+.tedcredit{
+  font-size: 72px !important;
+  font-weight:normal;
+  font-family: 'Mukta Malar';
+  color: #555668;
+ 
+}
+
+.tedcredit .creditComponent{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+ted-credits{
+  font-size: 18px !important;
+  font-weight:normal;
+  font-family: 'Mukta Malar';
+  color: #8E8FA2;
+}
+
+.button .btn-convert{
+  /* width:260px; */
+  height:28 px;
+  border: 1px solid #8D265D;
+  border-radius: 2px;
+  background: transparent;
+  /* margin-left: 10px; */
+}
+
+.qrComponent .qrcodeTitle{
+font-size: 18px !important;
+font-family: 'Mukta Malar';
+color: #8E8FA2;
+text-align: center;
+padding-top:0px;
+}
+
+.qrComponent{
+ height:220px ;
+ /* width:270px;  */
+ width: 243px; 
+  margin-top: 90px !important;
+  background: #ffffff;
+  text-align: center;
+}
+
+.qrComponent .imageContainer{
+  height: 150px;
+  width:150px;
+  /* margin-left: 60px; */
+  margin-top: 20px;
+}
+.qrCodeCol {
+  max-width:24% !important;
+}
+
+
+.tedsWallet .bgwhite{
+  padding:0px;
+}
+
+.tedsCredit .bgwhite{
+  padding:0px;
+}
+
+.tedsWallet .bgwhite .tedwallet-credits{
+  padding-bottom: 20px; 
+}
+
+.tedsCredit .bgwhite .button{
+  padding-bottom: 18px;
+  /* margin-left: 5%; */
+}
+
+.tedsCredit .bgwhite .button .btn-block{
+  width:90%;
+}
+
+.tedsCredit .bgwhite .button .btn-convert{
+margin: 0 auto;
+}

@@ -1,0 +1,198 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mukta Malar', sans-serif !important;
+  background: linear-gradient(45deg, #902A63 0%, #7F1543 100%) !important;
+  
+}
+
+.loginmain{
+  background: linear-gradient(45deg, #902A63 0%, #7F1543 100%) !important;
+}
+
+.login-main{
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 0 5% !important;
+}
+.login-main .logo{
+  margin-top: 325px;
+  margin-bottom: 30px;
+}
+.form-group{
+  text-align: left;
+}
+.form-group label{
+  color: #313541;
+  font-family: 'Mukta Malar';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px;
+}
+.form-group input{
+  color: #B0BAC5;
+  font-family: "Mukta Malar";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+input::-webkit-input-placeholder {
+  color:#B0BAC5 !important;
+  font-family: "Mukta Malar";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.login-main .btn-primary{
+  background: linear-gradient(#902A63, #7F1543);
+  border: none;
+  margin-top: 30px;
+  border-radius: 2px;
+  font-size: 16px !important;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.login-main code{
+  color: #333333;
+}
+.login-main .btn-signup{
+  margin-top: 30px;
+  margin-bottom: 325px;
+  font-size: 16px !important;
+  line-height: 24px;
+  text-align: center;
+  color:#999999;
+}
+.login-main .a{
+  color:#1584D4;
+  font-family: "Mukta Malar"; font-size: 16px; line-height: 24px;
+  text-align: center;
+}
+
+/* ******* RIGHT COLUMN ******** */
+.test-main{
+  background: url("../../Assets/landingPageBg.jpg");
+  background-size: cover;
+  justify-content: center;
+}
+.test-main .educational-background {
+  margin-top:407px;
+  height: 48px;
+  color: #F9F9F9;
+  font-family: "Mukta Malar";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+.test-main h1{
+  font-size: 52px !important;
+  font-weight: 600 !important;
+  color: #f9f9f9 !important;
+}
+.test-main .subTitle{
+  width: 80%;
+  margin: 0 auto;
+  font-weight: normal;
+  color: #D5AFC3;
+  height: 78px;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 5% !important;
+}
+.test-main .learnMore{
+  height: 44px;
+  width: 200px;
+  border-radius: 2px;
+  background: linear-gradient(52.38deg, #555668 0%, #393140 100%);
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.test-main .copyright{
+  margin-top: 0;
+  color: #D5AFC3;
+  font-size: 14px;
+  line-height: 24px;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.signup{
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 0% 5% !important;
+}
+
+.signup .logo{
+  margin-top: 184px;
+  margin-bottom: 30px;
+}
+
+.form-group .dropdown{
+  color: #B0BAC5;
+  font-family: "Mukta Malar";
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  width: 100% !important;
+ 
+}
+.dropdown .dropdown-toggle{
+  width: 100%;
+  padding: 10px !important;
+  border: 1px solid #ced4da;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  text-align: left;
+}
+.dropdown .dropdown-toggle::after{
+  float: right;
+  margin-top: 8px;
+}
+.dropdown .dropdown-menu{
+  width: 100%;
+  font-size: 14px;
+}
+
+.signup .btn-primary{
+  background: linear-gradient(#902A63, #7F1543);
+  border: none;
+  margin-top: 30px;
+  border-radius: 2px;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.signup code{
+  color: #333333;
+}
+.signup .btn-login{
+  margin-top: 30px;
+  margin-bottom: 130px;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color:#5f697a;
+}
+.signup .a{
+  color:#1584D4;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+

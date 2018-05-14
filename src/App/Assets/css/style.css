@@ -1,0 +1,1191 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:200,300,400,500,600,700,800');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta Malar', sans-serif !important;
+    background: #f9f9fb !important;
+    font-size: 18px !important;
+    color: #555668 !important;
+}
+
+h1{
+    font-size: 24px !important;
+    /*color: #302737 !important;*/
+    font-weight: 300 !important;
+}
+
+h2{
+    font-size: 24px !important;
+    /*color: #302737 !important;*/
+    font-weight: 300 !important;
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+}
+
+  
+.has-success .control-label,
+.has-error .control-label {
+  color: #313541;
+}
+
+.form-control-feedback{
+  font-size: 16px;
+  font-weight: 300 !important;
+  top: 29px !important;
+}
+
+.clearfix {
+  width: 100%;
+}
+
+.pwdmustmatch {
+  color: red;
+  float: right;
+  font-size: 14px;
+  font-weight: 300;
+  top: 10px;
+}
+
+/*
+.side-menu {
+  max-width: 20% !important;
+}*/
+
+/* 73% */
+.account-main,
+.inviteFriend-main,
+.newRequest-main,
+.university-main,
+.new-petition-main,
+.search-main,
+.uploadCredential-main,
+.wallet-main,
+.home-main
+{
+  max-width: 73% !important;
+}
+
+.my-account,
+.inviteFriend-main,
+.newRequest-main,
+.certificate-main,
+.university-main {
+  margin-top: 50px;
+}
+
+.inviteFriend-main .invite-friend {
+  margin-bottom: 10px;
+}
+
+.btnmain-invitefriend{
+  margin-top: 20px;
+}
+
+.btnmain-invitefriend,
+.btnmain-invitefriend .btn-invite,
+.btnmain-invitefriend .btn-addAnother {
+  float: left;
+  font-weight: 300;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 0;
+}
+
+.btnmain-invitefriend .btn-invite {
+  background: linear-gradient(#902A63, #7F1543);
+  border: none;
+  margin-top: 0 !important;
+  color: #FFFFFF;
+  width: 150px;
+  float: left;
+  margin-left: 30px;
+}
+
+.btnmain-invitefriend .btn-addAnother, 
+.request-credential .btn-request-credentials,
+.teds .btn-order-more {
+  background: #f9f9fb !important;
+  border: 2px solid #8D265D;
+  color: #8D265D;
+  width: auto;
+  min-width: 150px;
+  padding: 3px 40px;
+  /*font-size: 14px;*/
+}
+
+/* ************* Form Inline Start ************* */
+.form-inline > * {
+  margin: 15px 3px !important;
+}
+
+.form-inline .form-group{
+  display: inline-block;
+  width: 30%;
+}
+
+.form-inline label {
+  /*width: 100%;*/
+  justify-content: left !important;
+  margin-bottom: 5px !important;
+}
+
+.form-inline .form-group input{
+  width: 95% !important;
+}
+
+.form-inline .btn-primary{
+  background: linear-gradient(#902A63, #7F1543);
+  border: none;
+  margin-top: 30px;
+  border-radius: 2px;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 300px;
+  padding: 10px 0;
+}
+.form-inline .btn-change {
+  font-family: "Open Sans",open-sans,sans-serif !important;
+  font-size: 12px;
+  width: 65px;
+  height: 46px;
+  margin-left: -83px !important;
+  margin-top: 42px !important;
+  z-index: 1;
+  border: 2px solid #999;
+  color: #8E8FA2;
+}
+
+.form-inline  .roleSelect,
+.form-inline  .label-roleSelect {
+    margin-left: 0;
+}
+
+.form-inline  .form-group .dropdown{
+    width: 96% !important;
+}
+
+.form-inline .form-control-feedback{
+    right: 10px;
+}
+.form-inline .pwdmustmatch {
+  margin-top: -6px;
+  /*margin-left: 133px;*/
+  position: absolute;
+  right: 20px;
+}
+
+.form-inline.form-inline .form-group:nth-child(4) .form-control-feedback{
+  margin-right: 62px;
+}
+.form-inline .dropdown-menu{
+  margin-left: 0;
+}
+/* ************* Form Inline End ************* */
+
+
+.sortby{
+  font-size: 18px;
+}
+.sortby .form-group{
+  float: right;
+}
+.sortby label,
+.sortby .dropdown{
+  float: left;
+  width: auto !important;
+}
+.sortby label{
+  font-size: 18px;
+  margin: 8px 5px 0 0;
+  font-weight: 200;
+}
+.sortby .dropdown,
+.sortby .dropdown button{
+  font-weight: 600;
+  font-size: 18px !important;
+  line-height: 1;
+}
+
+.bgwhite{
+  background: #ffffff;
+  padding: 20px;
+}
+
+.newRequest-main .bgwhite{
+  margin-top: 30px;
+  height: 100%;
+}
+
+.newRequest-main .dropdown .dropdown-toggle{
+  border: none;
+  padding: 10px 5px !important;
+}
+.newRequest-main .request-row {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 0 25px 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 18px;
+  font-weight: 200;
+  color: #555668;
+}
+
+.newRequest-main {
+  float: left;
+  width: 100% !important;
+}
+
+.newRequest-main .request-details{
+  float: left;
+  width: 30% !important;
+}
+
+.newRequest-main .btns-request{
+  float: right;
+  width: 70% !important;
+}
+
+.newRequest-main .request-row-title div,
+.newRequest-main .request-details,
+.newRequest-main .btns-request{
+  padding: 0;
+}
+
+.newRequest-main .request-row{
+  float: left;
+  width: 100%;
+}
+
+.newRequest-main .request-row strong{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.newRequest-main .request-row-title {
+  padding-bottom: 10px;
+}
+
+.newRequest-main .request-row-title .sortby label  {
+  float: left;
+}
+
+.newRequest-main .btns-request{
+  text-align: right;
+}
+.newRequest-main .btn-approve-request,
+.newRequest-main .btn-deny-request{
+  font-size: 14px;
+  font-weight: 300;
+  width: 120px !important;
+  display: inline-block;
+  margin-top: 10px !important;
+}
+
+.newRequest-main .btn-approve-request{
+  margin-right:15px !important; 
+}
+
+.newRequest-main .btn-view-credential{
+  font-size: 14px;
+  font-weight: 300;
+  width: 150px !important;
+  display: inline-block;
+  margin-top: 10px !important;
+  margin-right:15px; 
+  border: 2px solid #e4e4e4 !important;
+}
+
+.btn-approve-request{
+  background-color: #7F1543;
+  color: #FFF;
+  margin-right: 20px !important;
+}
+
+.btn-deny-request{
+  margin: 0 !important;
+  border: 2px solid #e4e4e4 !important;
+}
+
+.mycredential-btmrgt {
+  text-align: center;
+}
+
+.btn-amendment {
+  border: 2px solid #e4e4e4 !important;
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  width: 166px !important;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #8E8FA2;
+}
+
+.certificate-main {}
+
+.certificate-main h1{
+  margin-bottom: 20px;
+}
+.certificate-main hr{
+  margin: 30px 0;
+}
+.certificate-main img {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.certificate-detail {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #555668;
+}
+
+.certificate-detail h2{
+  margin-top: 0 !important;
+}
+
+.request-row .title-heading {
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+/* ************** Alert **************** */
+
+.popup-alert{
+  width:30%;
+  margin: -503px auto;
+}
+.popup-alert .btn-alert {
+  border: 2px solid #e4e4e4 !important;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 200;
+  width: 100px;
+  height: 35px;
+  margin-bottom: 35px;
+  margin-left: 39%;
+  color: white;
+  text-align: center;
+}
+
+.popup-alert .errImg {
+  margin-right: 10px !important;
+  margin-top: -1px;
+
+}
+
+/* ************* Spinner ************ */
+.react-overlay-loader-spinner:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -30px;
+  margin-left: -20px;
+  border-radius: 50%;
+  border: 3px solid #eee;
+  border-top-color: #07d;
+  animation: react-overlay-loader-spinner 0.8s linear infinite;
+}
+
+/* ************* passwordChangeDiv *************** */
+.my-account-password{
+  width: 28.5%;
+}
+
+.my-account-password .form-group{
+  width: 85%;
+  z-index: 1;
+
+}
+.my-account-password .btn-change{
+  position: relative;
+  margin: 0 !important;
+  margin: -46px 0 0 0 !important;
+  z-index: 2;
+  float: right;
+}
+.my-account-password .pwdmustmatch{
+  right: -40px;
+  position: absolute;
+}
+
+.my-account h2{
+  margin-top: 25px !important;
+  margin-bottom: 10px !important;
+}
+
+.my-account .form-inline.password .btn-password {
+  background: linear-gradient(#902A63, #7F1543);
+  border: none;
+  margin-top: 30px;
+  border-radius: 2px;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 300px;
+  padding: 10px 0;
+}
+
+.my-account-password .form .label .control-label {
+  margin-top: 18px;
+}
+
+.my-account .form-inline .btn-profile {
+  background: #f9f9fb !important;
+  border: 2px solid #8D265D;
+  color: #8D265D;
+  width: 300px;
+  padding: 3px 10px;
+  float: left;
+  margin-top: -28px !important;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 31px;
+}
+
+.my-account  .btn-save-change{
+  background: linear-gradient(#902A63, #7F1543);
+  border: none;
+  margin-top: -22px !important;
+  border-radius: 2px;
+  font-family: "Mukta Malar";
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 300px;
+  padding: 10px 0;
+}
+
+.my-account .bio-description{
+  width: 94%;
+}
+
+.my-account .bio-description label{
+  width: 100%;
+}
+
+.my-account .bio-description .form-control-feedback{
+  margin-right: 40px;
+}
+
+.my-account .bio-description .pwdmustmatch{
+  right: 50px;
+}
+
+.my-account .my-company{
+  margin-left: 6px !important;
+}
+
+.referral-main{
+  margin-top: 50px !important;
+  text-align: left !important;
+}
+
+.referral-main .referral-row {
+  width: 90%;
+}
+
+.referral-main .bgwhite{
+  width: 100%;
+}
+
+.referral-main .bgwhite.two-liner span{
+  margin-top: 10px;
+  display: block;
+}
+
+
+.referral-row{
+  padding-top:10px;
+  color:#8D265D;
+}
+
+.referral-row h2{
+  color:#8D265D;
+  font-size: 18px !important;
+  font-weight: normal;
+}
+
+.referral-row.row{
+  margin: 0;
+}
+
+.referral-row .referral-status,
+.referral-row .earned-points
+{
+  font-size: 18px !important;
+  font-weight: normal;
+  text-align: right;
+  padding-left: 80px;
+}
+
+.referral-row .referral-status{
+  color:#8E8FA2 !important;
+}
+.referral-row .earned-points{
+  color:#8D265D;
+}
+
+.myaccount-password {
+  width: 30%;
+}
+.myaccount-password .password-textfield{
+  width: 100% !important;
+  margin-bottom: 30px !important;
+}
+
+.myaccount-password .password-textfield .new-password{
+  margin-top: 4px;
+}
+
+.myaccount-password .pwdmustmatch{
+  margin: -25px 0 0 0 !important;
+  width: 96%;
+  text-align: right;
+}
+
+/*
+.myaccount-password .input{
+  width: 300px !important;
+}
+.myaccount-password .pwdmustmatch{
+  margin-left: 115px !important;
+}
+.myaccount-password .form-control-feedback{
+  margin-right: 85px;
+  margin-top: 3px;
+}
+
+
+.myaccount-password .password-textfield .confirm-password{
+  margin-top: 27px !important;
+}*/
+
+/* ********************** public profile ********************* */
+.profile-main {
+  margin-top: 69px;
+}
+
+.profile-detail {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-detail .btn-primary,
+.search-credential .btn-primary,
+.create-petition .btn-primary{
+    background: linear-gradient(#902A63, #7F1543);
+    border: none;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-family: "Mukta Malar";
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    width: auto;
+    padding: 10px 65px;
+}
+
+.profile-detail .btn-primary{
+  margin: 30px auto;
+  margin-bottom: 52px;
+}
+
+.profile-detail .photo{
+  margin: 0 auto;
+}
+
+.profile-detail .photo .img-circle{
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-detail .row-photo{
+  display: inline-flex !important;
+}
+.profile-detail .profile-detail-row{
+  text-align: center;
+}
+
+.profile-detail .profile-role{
+  color:#8E8FA2;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: -14px;
+}
+
+.profile-detail .profile-email{
+  color: #8D265D;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.profile-detail .profile-biodescription{
+  color: #555668;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 10px;
+  padding: 0px 25px;
+}
+
+.profile-detail .profile-school-title{
+  color: #555668;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.profile-school-title h2{
+  margin-top: 10px !important;
+}
+
+.profile-main .sideText{
+  color: #302737;
+}
+
+.profile-main .sideText h2{
+  margin-top: 0 !important;
+}
+
+.profile-back-arrow{
+  margin-left: -8px;
+}
+
+.profile-back-arrow .btn-back{
+  width: 40px;
+  float: left;
+  margin-right: 20px;
+  background: none;
+}
+
+/* ******************* Search Credentials **************** */
+.search-result-row {
+  display: inherit !important;
+
+}
+.search-result-row .col-user, .search-result-row .request-credential{
+  padding: 0;
+  margin: 0;
+  width: 50% !important;
+}
+
+.search-result-row .photo .img-circle{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.teds{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.teds .bgwhite{
+  width: 240px;
+  height: 217px;
+}
+
+.teds .bgwhite .ted-remaining{
+  font-size: 72px;
+  font-weight: 300;
+  margin-top: -13px;
+  text-align: center;
+  color: #555668;
+}
+
+.teds .bgwhite .ted-credits{
+  font-size: 18px;
+  font-weight: 200;
+  color:#8E8FA2;
+  text-align: center;
+  margin-top: -16px;
+}
+
+.teds .bgwhite .btn-order-more{
+  margin: 8px auto;
+  width: 131px;
+  height: 31px;
+}
+
+.search-col .search-credential{
+  margin-left: 15px;
+  width: 280px;
+}
+
+.search-col .search-credential .btn-primary{
+  margin-bottom: 20px;
+}
+
+.search-main,
+.certificate-main,
+.newRequest-main,
+.inviteFriend-main,
+.account-main,
+.upload-credential-main,
+.university-main{
+  padding: 0 !important;
+}
+
+.search-main .search-row .search-col h2{
+  margin-left: 15px !important;
+  margin-top: 50px;
+}
+
+.search-main .result-row .search-result-row {
+  margin-bottom: 10px;
+  padding: 5px 0 15px 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 18px;
+  font-weight: 200;
+  color: #555668;
+  border-bottom: 1px solid #e4e4e4 !important;
+}
+
+.search-main .result-row {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.search-main .request-row.request-row-title{
+ border-bottom: 1px solid #e4e4e4 !important;
+ margin-bottom: 15px;
+}
+
+.search-main .result-row h2{
+  margin-top: 5px !important;
+}
+
+.search-main .search-result-row .student-name{
+  margin-left: 15px;
+  color: #8D265D;
+}
+
+.search-main .search-result-row .name-link,
+.petition-details .petitioner-name .name-link{
+  font-size: 20px;
+  font-weight: 400;
+  color: #8D265D !important;
+}
+
+.search-main .search-result-row .student-address{
+  margin-top: -29px;
+  margin-left: 88px;
+}
+
+.search-main .request-credential .btn-request-credentials {
+  margin-top: 48px;
+  float: right;
+}
+
+.search-main .result-row .dropdown .dropdown-toggle{
+  border: none;
+  background: transparent;
+}
+
+/* *******************Upload Credential ********************* */
+.upload-credential-main{
+  margin-top: 98px;
+  margin-left: 29px;
+}
+.upload-credential{
+  height: 261px;
+  border: 1px solid #F6F6F6;
+  text-align: center;
+}
+
+.upload-credential .upload-camera{
+  text-align: center;
+}
+
+.upload-credential .credential-msg{
+  color: #8E8FA2;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.upload-credential .verify-msg{
+  color: #8E8FA2;
+  margin-top: 3px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.upload-credential .img-camera{
+  width: 124px;
+  height: 124px;
+  border: none;
+}
+
+.upload-credential .img-uploaded-camera{
+  width: 124px;
+  height: 124px;
+  border: 4px solid #8D265D;
+}
+
+input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 1px;
+  height: 1px;
+}
+
+input[type="file"] + label {
+  background: #f9f9fb !important;
+  border: 1px solid #8D265D;
+  color: #8D265D;
+  width: auto;
+  min-width: 150px;
+  padding: 3px 40px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 13px auto;
+  width: 131px;
+  height: 31px;
+  text-align: center;
+}
+
+.upload-credential-details {
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+  margin-top: -20px;
+}
+.upload-credential-details form{
+  width: 50%;
+}
+
+.upload-credential-details .btn-save-school,
+.search-university .btn-search-credential{
+  background: linear-gradient(52.38deg, #555668 0%, #393140 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.upload-credential-details .verify-credentials{
+  font-size: 18px;
+  font-weight: 300;
+  color:#555668;
+  margin-top: 30px;
+}
+
+.upload-credential-details .btn-school-request-verify {
+  font-size: 14px;
+  font-weight: 300;
+  width: 200px;
+  display: inline-block;
+  margin-top: 10px !important;
+  margin-right:20px; 
+  border: 2px solid #e4e4e4 !important;
+}
+
+/*inctive-tab*/
+.tabs-selection ul > li > a {
+  color: #8E8FA2;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #EEEEEE;
+  border: 1px solid  #FFFFFF;
+}
+
+/* active tab */
+.tabs-selection ul > li.active > a,
+.tabs-selection  ul > li.active > a:hover,
+.tabs-selection  ul > li.active > a:focus {
+  color: #8D265D;
+  font-size: 14px;
+  border: 1px solid  #FFFFFF;
+}
+
+.tabs-selection .tab-credential-img{
+  width: 100%;
+}
+
+/* ******************* My Universities ******************** */
+.university-main{
+  max-width: 65% !important;
+}
+
+.university-detail .university-row{
+  display: inherit !important;
+}
+
+
+.university-detail .university-row .school-name-label,
+.university-detail .university-row .location-label,
+.university-detail .university-row .dates-label,
+.university-detail .universtity-petition .petition-label{
+  color: #555668;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+.university-detail{
+  width: 100%;
+  float: left;
+}
+
+.university-detail .university-col {
+  max-width: 70% !important;
+  float: left;
+}
+
+.university-detail .universtity-petition{
+  max-width: 30% !important;
+  float: right;
+}
+
+.university-detail .universtity-petition .petition-label{
+  margin-top: 105px !important;
+  float: right;
+  /*margin-right: 20px;*/
+}
+
+.university-detail .university-row .school-name-text,
+.university-detail .university-row .location-text,
+.university-detail .university-row .dates-text{
+  color: #302737;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.university-detail .university-row .dates-text{
+  margin-bottom: 20px;
+}
+
+.university-detail .university-row .location-label,
+.university-detail .university-row .dates-label{
+  margin-top: 10px;
+}
+
+.university-detail .btn-petition{
+  border: 2px solid #e4e4e4 !important;
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  width: 166px !important;
+  margin-left: -35px;
+  margin-top: 6px;
+  color: #8E8FA2;
+}
+
+.university-detail .btn-add-school{
+  float: left;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 15px;
+  margin-left: 15px;
+  background: #f9f9fb !important;
+  border: 2px solid #8D265D;
+  color: #8D265D;
+  width: auto;
+  min-width: 150px;
+  padding: 3px 40px;
+  font-size: 16px;
+}
+
+.university-detail .bgwhite{
+  margin-top: 30px;
+}
+
+/* ********************Petition Row ************************ */
+
+.recent-petition-row {
+  padding-top: 10px;
+}
+
+.petition-row .bgwhite{
+  width:100%;
+}
+  
+.petition-row .sortby .dropdown{
+  margin-top: 45px;
+}
+
+.petition-row .sortby .label-roleSelect{
+  margin: 53px 5px 0 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.petition-row .col-petition {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.petition-row .col-petition .photo{
+  width: 75px;
+  height: 75px;
+  float: left;
+}
+
+.petition-row .btn-sign-petition{
+  float: right;
+  font-size: 14px;
+  font-weight: 300;
+  width: 150px !important;
+  display: inline-block;
+  margin-top: 10px !important;
+  border: 2px solid #e4e4e4 !important;
+}
+
+/*.petition-details .petitioner-name{
+  color:#8D265D !important;
+  font-size: 20px;
+  font-weight: 400;
+}*/
+
+.petition-details .petitioner-text{
+  color:#555668 !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+  
+.petition-row .roleSelect{
+  border: none;
+  background: transparent;
+  font-size: 18px;
+}
+  
+.petition-row .dropdown .dropdown-menu {
+  width: 100%;
+  font-size: 18px;
+}
+
+.petition-row .request-row .title-heading {
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  margin-top: 50px !important;
+  margin-bottom: 20px !important;
+}
+
+.petition-row h2{
+  font-weight: 500 !important;
+  margin-top: 50px !important;
+}
+  
+.petition-row .photo .img-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.create-petition h2{
+  font-weight: 300 !important;
+  margin-top: 50px !important;
+  text-align: left;
+}
+
+.success-petition h2{
+  font-weight: 300 !important;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.search-university h2{
+  margin-top: 30px !important;
+  text-align: left;
+}
+
+.create-petition .btn-primary{
+  width: 291px;
+  margin-bottom: 30px;
+}
+
+.success-petition {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.success-petition .success-petiton-name{
+  color: #8D265D;
+}
+
+
+.success-petition .success-petiton-name h2{
+  color: #302737;
+}
+
+.new-petition-main{
+  margin-top: 50px;
+}
+
+.new-petition-main .new-petition-form{
+  margin-top: 35px;
+}
+
+.new-petition-main .optional-btn-text{
+  color: #313541;
+  font-family: 'Mukta Malar';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.new-petition-main .btn-upload-credential{
+  border: 1px solid #8E8FA2;
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  width: 55%;
+  margin-top: 6px;
+  color: #8E8FA2;
+  padding: 10px;
+  background: transparent;
+}
+
+.new-petition-main .btn-primary{
+  background: linear-gradient(#902A63, #7F1543);
+    border: none;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-family: "Mukta Malar";
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 55%;
+    padding: 10px;
+    margin-top: 30px !important;
+}
+
+.new-petition{
+  max-width: 291px !important;
+  margin-left: 30px;
+  padding: 0 !important;
+}
+
+.new-petition-main .new-petition-form .form-group input{
+  width: 55% !important;
+}

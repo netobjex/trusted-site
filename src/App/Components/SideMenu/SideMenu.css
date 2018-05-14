@@ -1,0 +1,127 @@
+.side-menu {
+  max-width: 262px !important;
+  margin-right: 29px;
+  padding: 0 !important;
+}
+
+.side-menu .container{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.sidemenu {
+  background-color: #FFFFFF;
+}
+
+.sidemenu .logo{
+  padding: 41px 0 !important;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+.sidemenu .logo img{
+  width: 150px;
+}
+.sidemenu .photo{
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+.sidemenu .photo .img-circle{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.sidemenu .list-group{
+  margin: 0 auto;
+  padding-top: 30px !important;
+}
+
+.sidemenu .list-group  .grpItem:nth-child(8){
+  border-bottom: 1px solid #e4e4e4 !important;
+}
+
+.sidemenu .list-group  .grpItem:last-child {
+  border-top: 1px solid #e4e4e4 !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+  .grpItem .icon {
+    color: #8E8FA2;	
+    margin-top: -5px;
+    margin-right: 25px;
+  }
+
+
+  .grpItem .itemName{
+    font-family: "Mukta Malar";
+    font-size: 16px;	
+    font-weight: 400;	
+    line-height: 27px;
+    color: #8E8FA2;
+  }
+
+  .grpItem .selected{
+    color: #8D265D;
+  }
+
+  .grpItem{
+    padding: 1.75rem 1.5rem !important;
+    justify-content: 'space-between';
+    border: none !important;
+  }
+
+  .grpItem .selected{
+    color: #8D265D;
+  }
+
+  .sidemenu .dropdown{
+    color: #8E8FA2;
+    font-size: 18px !important;	
+    font-weight: 300 !important;	
+    line-height: 30px;
+    text-align: center;
+    margin: 4px 18px;
+    display: inline-block;
+    border: none;
+  }
+  .sidemenu .dropdown ul{
+    font-size: 18px !important;	
+    font-weight: 300 !important;
+  }
+
+
+  /* **************** Responsive SideMenu ****************** */
+
+  .sidemenu .navbar-header .navbar-toggle {
+    margin-left: 275px;
+    background: white;
+  }
+
+  .sidemenu .menuItems .navbar .container .navbar-collapse{
+    padding-right: 0; 
+    padding-left: 0;
+  }
+
+  .sidemenu .menuItems .navbar,
+  .sidemenu .menuItems .navbar .container {
+    background: #FFFFFF;
+  }
+
+  .sidemenu .menuItems .navbar-nav .grpItem{
+    padding: 1.75rem 0 !important;
+  }
+
+  .sidemenu .menuItems .grpItem .icon{
+    margin-right: 16px;
+  }
+
+  .sidemenu .navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sidemenu .menuItems .nav>li>a {
+    padding: 0;
+}

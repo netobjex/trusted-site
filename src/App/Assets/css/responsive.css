@@ -1,0 +1,649 @@
+/*@media screen and (max-width: 2600px) {
+  .container {
+      max-width: 1440px !important;
+  }
+}*/
+
+
+@media screen and (min-width: 1201px) {
+  .container {
+      /*max-width: 1440px !important;*/
+  }
+
+  .newRequest-main .request-row-title .sortby label  {
+    float: left;
+  }
+
+}/****end point****/
+
+
+/*  For all iPad Pro landscape only   */
+@media screen and (min-width: 1366px) {
+  .sidemenu {
+    background-color: #FFFFFF !important;
+    margin-right: 0 !important;
+  }
+
+  .upload-credential-main{
+  
+  	max-width: 21% !important;
+ 
+ }
+ .search-main .request-row.request-row-title{
+  border-bottom: 1px solid #e4e4e4 !important;
+  margin-bottom: 15px;
+  padding: 38px !important;
+ }
+
+ .search-result-row .col-user, .search-result-row .request-credential{
+  padding: 0;
+  margin: 0;
+  width: 50% !important;
+}
+
+.upload-credential{
+  margin-top: 0px !important;
+}
+
+/*Seema*/
+
+.qrCodeCol{
+  max-width: 100% !important;
+}
+
+}/****end point****/
+
+
+/*  For all iPad Pro only   */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+  .sidemenu {
+    background-color: #FFFFFF;
+    margin-right:29px;
+  }
+
+  .request-row  {
+    float: left !important;
+    width: 100% !important;
+  }
+
+  .request-row .title  {
+    float: left !important;
+    width: 50% !important;
+  }
+
+  .request-row .sortby  {
+    float: right !important;
+    width: 50% !important;
+  }
+
+  .upload-credential-main{
+    max-width: 21% !important;
+  }
+
+  .upload-credential{
+    margin-top: 80px;
+  }
+  
+  .search-main .request-row.request-row-title{
+    padding-bottom: 10px; 
+   }
+     
+   /*Seema*/
+  .qrCodeCol{
+    max-width: 100% !important;
+  }
+
+  .tedsWallet{
+    width: 100% !important;
+  }
+
+}/****end point****/
+
+
+
+/*  For all iPad only   */
+@media screen and (min-width: 768px) and (max-width: 1024px ) {
+ 
+  .my-account .form-inline.password .pwdmustmatch {
+    margin-top: 64px !important;
+    left: 0 !important;
+  }
+  .new-petition {
+    margin-left:  0;
+    padding: 0 !important;
+  }
+
+  /*Seema*/
+  .tedsCredit .bgwhite .button .btn-convert{
+    font-size: 11px;
+  }
+  
+}/****end point****/
+
+
+/*  For all iPad portrait only   */
+/* 100% */
+@media (width: 768px) {
+  .account-main,
+  .inviteFriend-main,
+  .newRequest-main,
+  .university-main,
+  .search-main {
+    max-width: 100% !important;
+  }
+
+  .new-petition-main .new-petition-form .btn-upload-credential{
+    width: 100% !important;
+  }
+
+  .new-petition-main .btn-primary{
+    width: 100% !important;
+  }
+
+  .new-petition-main .new-petition-form .form-group input{
+    width: 100% !important;
+  }
+
+  .search-main .request-row.request-row-title{
+  
+    padding-bottom: 65px !important;
+      
+   }
+
+}/****end point****/
+
+
+
+/*  For all iPad landscape only   */
+@media screen and (max-width: 1024px) {
+  .side-menu {
+    max-width: 100% !important;
+    margin-right: 0;
+  }
+
+  .search-main,
+  .certificate-main,
+  .newRequest-main,
+  .inviteFriend-main,
+  .account-main,
+  .upload-credential-main,
+  .university-main {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .upload-credential-main {
+    margin-left: 0;
+  }
+
+  .upload-credential-main{
+    margin-top: 20px;
+  }
+
+  .my-account-password .form-group {
+    width: 74%;
+  }
+
+  .my-account .bio-description .pwdmustmatch{
+    right: 31px;
+  }
+
+  .create-petition .btn-primary {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .create-petition h2{
+    text-align: center;
+  }
+
+  .search-main .request-row.request-row-title{
+   
+    padding-bottom: 10px;
+     
+    }
+
+  
+}/****end point****/
+
+
+/*  For all Mobiles   */
+@media screen and (max-width: 767px) {
+  .side-menu .container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .form-inline .form-group{
+    width: auto;
+  }
+
+  .search-col {
+    width: 100%;
+  }
+
+  .search-col .search-credential {
+    width: 91%;
+  }
+
+  .search-col .search-credential .btn-primary{
+    margin: 30px auto;
+  }
+
+  .search-row .teds-column  {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .search-row  .teds{
+    margin: 0;
+  }
+
+  .search-row .teds-column .bgwhite{
+    width: 100%;
+  }
+
+  .result-row {
+    width: 100%;
+  }
+
+  .sortby .form-group,
+  .request-credential .btn-request-credentials {
+    float: left;
+  }
+  
+  .certificate-main {
+    max-width: 100% !important;
+  }
+
+  .upload-credential-main {
+    margin-top: 0;
+  }
+
+  .upload-credential-details form {
+    width: 100%;
+  }
+
+  .newRequest-main .btns-request{
+    text-align: left;
+  }
+
+  .btn-request .btn,
+  .newRequest-main .btn-view-credential,
+  .newRequest-main .btn-approve-request,
+  .newRequest-main .btn-deny-request{
+    width: 100% !important;
+  }
+
+  .newRequest-main .request-details{
+    width: 100% !important;
+  }
+  
+  .newRequest-main .btns-request{
+    width: 100% !important;
+  }
+
+  .inviteFriend-main .form-inline .form-group,
+  .inviteFriend-main .form-inline .form-group input{
+    width: 100% !important;
+  }
+  .btnmain-invitefriend{
+    width: 100%;
+  }
+
+  .inviteFriend-main .btnmain-invitefriend button{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btnmain-invitefriend .btn-invite{
+    margin-left: 0;
+  }
+
+  .referral-main .referral-row{
+    width: 100%;
+  }
+
+  .referral-main .referral-row .bgwhite{
+    padding: 10px 0;
+  }
+
+  .referral-row .referral-status, .referral-row .earned-points{
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .referral-main .bgwhite.two-liner span{
+    margin-top: 0px;
+  }
+  
+  /* 100 */
+  .account-main,
+  .inviteFriend-main,
+  .newRequest-main,
+  .credential-main,
+  .university-main,
+  .new-petition-main,
+  .search-main,
+  .uploadCredential-main, /*Seema*/
+  .wallet-main, /*Seema*/
+  .qrCodeCol /*Seema*/
+  {
+    max-width: 100% !important;
+  }
+
+  .new-petition-main .new-petition-form .btn-upload-credential{
+    width: 100% !important;
+  }
+
+  .new-petition-main .btn-primary{
+    width: 100% !important;
+  }
+
+  .new-petition-main .new-petition-form .form-group input{
+    width: 100% !important;
+  }
+
+  .search-credential .btn-primary{
+    width: 100%;
+  }
+
+  .teds-column .ted-remaining{
+    width: 100%;
+  }
+
+  .my-account .form-group,
+  .my-account .form-group input,
+  .my-account-password {
+    width: 100% !important;
+  }
+
+  .my-account-password input{
+    width: 90%;
+  }
+
+  .my-account-password .pwdmustmatch {
+    right: 0;
+  }
+
+  .my-account-password .form-control-feedback {
+    right: 60px;
+  }
+
+  .my-account .bio-description .pwdmustmatch{
+    right: 3px;
+  }
+
+  .my-account .bio-description .form-control-feedback{
+    right: -27px;
+  }
+
+  .my-account-password .btn-change{
+    margin-top: -56px !important;
+  }
+
+  .form-inline .roleSelect, .form-inline .label-roleSelect {
+    margin-left: 0 !important;
+  }
+
+  .form-inline .form-group .dropdown {
+    width: 100% !important;
+  }
+  .form-inline .dropdown-menu {
+    margin-left: 0;
+  }
+
+  .my-account .my-company {
+    margin-left: 0 !important;
+  }
+
+  .my-account .btn-save-change,
+  .my-account .form-inline .btn-profile,
+  .my-account .form-inline.password .btn-password{
+    width: 100% !important;
+  }
+
+  .myaccount-password {
+    width: 100%;
+  }
+
+  .sidemenu .navbar-nav{
+    margin: 0;
+  }
+  
+  .university-detail .university-col {
+    max-width: 100% !important;
+  }
+  
+  .university-detail .universtity-petition{
+    max-width: 100% !important;
+  }
+
+  .university-detail .universtity-petition .petition-label{
+    float: left;
+  }
+
+  .university-detail .btn-petition{
+    margin-left: 0;
+  }
+
+  .petition-row .btn-sign-petition{
+    float: left;
+  }
+
+  .petition-row {
+    padding: 15px;
+  }
+
+  .new-petition{
+    padding: 15px !important;
+    margin-left: 0;
+    max-width: 100% !important;
+  }
+
+  .create-petition .btn-primary {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .create-petition h2{
+    text-align: center;
+  }
+
+  .search-main .result-row .title{
+    height: 32px;
+  }
+
+  .search-main .sortby label{
+    margin: 8px 5px 0 0;
+    }
+   
+  .search-main .request-row.request-row-title{
+  
+    padding-bottom: 65px !important;
+  
+    }
+
+    .search-result-row .col-user, .search-result-row .request-credential{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+
+    /*Seema*/
+
+    .uploadCredential-main .uploadStudentFile .h1{
+      text-align: center;
+    }
+
+    .uploadCredential-main .upload-file-row .form-inline .choose-btn label{
+      padding-top: 10px;
+    }
+
+    .wallet-main .creditComponent .tedsCredit{
+       margin-top: 35px !important; 
+    }
+    .qrCodeCol {
+      text-align: center;
+    }
+
+    .qrCodeCol .qrCodeComponent .qrComponent{
+      height: 220px;
+      width: 100%;
+      margin-top: 50px !important;
+      background: #FFFFFF;
+      margin-bottom: 10px !important;
+    }
+
+    .qrCodeCol .qrCodeComponent .qrComponent .imageContainer {
+      height: 150px; 
+      width: 150px; 
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+
+   .creditComponent .tedsCredit .bgwhite .button{
+      margin:0 auto;
+    }
+
+    .qrCodeCol .qrCodeComponent{
+      width:fit-content;
+    }
+
+}/****end point****/
+
+@media screen and (max-width: 320px) {
+  .sidemenu .navbar-header{
+    width: 100%;
+  }
+
+  .sidemenu .navbar-header .navbar-toggle {
+    margin-right: -10px;
+    margin-left: 0;
+  }
+
+  .new-petition{
+    padding: 15px !important;
+  }
+
+  .search-main .result-row .dropdown .dropdown-toggle{
+    margin-top: 0;
+    background: transparent;
+  }
+
+  .search-main .result-row .title{
+    height: 26px;
+  }
+
+  .search-main .sortby label {
+    margin: 8px 5px 0 0;
+  }
+
+  .search-result-row .col-user, .search-result-row .request-credential{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+  }
+
+  .login-main{
+   
+    max-width: 100%;
+    
+    }
+
+}/****end point****/
+
+/* Landscape Mobile */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .account-main,
+  .inviteFriend-main,
+  .newRequest-main,
+  .university-main,
+  .new-petition-main,
+  .search-main,
+  .wallet-main, /*Seema*/
+  .qrCodeCol{  /*Seema*/
+    max-width: 100% !important;
+  }
+
+  .new-petition-main .new-petition-form .btn-upload-credential{
+    width: 100% !important;
+  }
+
+  .new-petition-main .btn-primary{
+    width: 100% !important;
+  }
+
+  .new-petition-main .new-petition-form .form-group input{
+    width: 100% !important;
+  }
+
+  .search-row {
+    width: 100%;
+  }
+
+  .search-row  .search-col .search-credential {
+    width: 100%;
+  }
+
+  .search-row .teds-column {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .search-main .request-row.request-row-title{
+    padding-bottom: 65px !important;
+   }
+   
+   .sortby col-lg-6 col-md-6 col-sm-6 col-xs-6{
+     margin-top: 25px;
+   }
+   .login-main{
+    max-width: 100%;
+   }
+   
+   .search-row  .teds{
+    max-width: 100% !important;
+  }
+
+  /*Seema*/
+  .creditComponent .bgwhite .button .btn-convert {
+    width: 207px;
+      margin-left: -18px;
+  }
+    .qrCodeCol{
+     max-width: 21% !important; 
+     }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px){
+  .sortby col-lg-6 col-md-6 col-sm-6 col-xs-6{
+    margin-top: 25px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 812px) 
+  and (max-device-height: 375px)
+  and (orientation: landscape) {
+
+.search-row {
+  width: 100%;
+}
+
+.search-row  .search-col{
+  width: 50%;
+}
+
+.search-row .teds-column {
+  margin: 0 auto;
+  width: 50%;
+}
+}
